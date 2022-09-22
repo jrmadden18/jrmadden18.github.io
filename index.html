@@ -38,7 +38,9 @@
         <div class="container">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="assets/images/mbr-119x137.png" alt="Dancer" width="32" height="32">
+			<a href="https://mobiri.se">
+                        <img src="assets/images/mbr-119x137.png" alt="Mobirise Website Builder" style="height: 3.8rem;">
+                    </a>
                 </span>
                 <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://mobiri.se">Jocelyn Madden</a></span>
             </div>
@@ -70,7 +72,17 @@
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8">
                 <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Jocelyn's Dance Page</strong></h1>
-                
+                 <h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Mouse over me</h1>
+
+<script>
+function mouseOver() {
+  document.getElementById("demo").style.color = "pink";
+}
+
+function mouseOut() {
+  document.getElementById("demo").style.color = "black";
+}
+</script>
                 <p class="mbr-text mbr-fonts-style display-7">Dance has many physical and mental benefits. Being involved in dance in any capacity, whether by attending professional performances, taking studio classes, or becoming a professional dancer is enjoyable and impactful. I have taken dance classes for the past 5 years and have benefited greatly from them. I'm based in Upstate, South Carolina in the Spartanburg and Inman areas.</p>
                 <div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="index.html#content1-b">learn more about local dance studios</a></div>
 		<div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="index.html#content1-d">learn more about local performances</a></div>
